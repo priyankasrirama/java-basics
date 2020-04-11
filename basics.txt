@@ -1,0 +1,121 @@
+git:
+	technology/language for source code management
+	java/dot net code or any code
+	we need to save in some location
+	code pull/push/clone
+	git is language to provide these commands to save our source code
+
+github/bitbucket/gitlab:
+	cloud providers/applications using git language
+
+notepad++, visual code, sublime - editors like notepad
+
+difference between source file and binary file
+	source file: .java, .py, .scala
+	binary files: 
+		java -> class files - this is called binary
+		installable files binary files
+
+tortoise git, git gui, source tree:
+	to execute git commands tortoise git is GUI(Graphical User Interface) client
+	github/bitbucket/gitlab - connect - git commands execute
+
+java code terminology:
+ABC.java file - source code, code we write
+ABC.class file - byte code. process of converting .java file to .class is called compilation
+jdk - java development kit - JRE + Tools
+	jdk-8 installation softwares
+		tools to compile java file
+		tools to execute byte(.class) code
+		tools to monitor applications developed in java
+		javac - java compiler
+		JRE - Java Runtime Environment
+			jvm - java virtual machine
+			library classes
+		Is common for all OSs
+
+Javac - java compiler
+	tool to compile .java file to .class file
+
+JVM:
+	tool which convert byte code to machine level language and execute our byte code
+
+library classes:
+	classes that support execution of byte code
+	these comes as jar files while installation of jdk/jre
+
+JRE - JVM + library classes
+	we can decide whether to install only jdk or jre
+	jre is specific to OS
+
+where we write java code:
+	.java files
+	javac - .class files
+	we can write in notepad .java file and compile it
+	IDE - Integrated development Environment
+		Eclipse
+		STS
+		IntelliJ
+		we configure JDK in IDE so that when we make any changes to java file automatically class file will be generated
+		since we are configuring JDK in IDE, it will have path to JRE also
+		since it has access to JRE path, we can directly execute java code from IDE
+
+.java file, jar file, war, ear:
+	java file - 1 java file we write
+	jar file - zip of multiple java files - java archive file
+	war file - group of multiple jar files - web archive file
+	ear - group of multiple war and jar files - enterprise archive file
+	we need application/web servers to run war files
+	we need application servers to run ear files
+
+application server: more features, takes more time to start. mostly licensed
+	weblogic
+	websphere
+	jboss
+	wildfly
+
+web servers: light weigh. starts fast, mostly open source
+	tomcat
+	jetty
+	undertow
+
+STS - codebase vs workspace
+	every STS we run we need to assocaite with workspace(one folder with that instance of STS configuration)
+	codebase - out java application code that we import
+
+SQL - language specification to query data
+	data saved in rows and columns in tables
+
+SQL providers:
+	Oracle
+		SQL Developer tool is client to connect oracle database
+		TOAD
+	MySQL
+		client: mysql workbench 
+	SQL server
+		client: sql server management studio
+	H2
+		client: h2
+
+NoSQL - 
+	no structure to data
+	saved in json format
+
+java:
+	core java
+	advanced java - mainly used for web applications
+	javaee - mainly used for complex web applications
+	frameworks - libraries to support application development
+		spring
+		spring boot
+
+UI:
+	javascript
+	angular js
+	angular
+	react
+	node
+	npm
+	etc
+	typescript
+	coffescript
